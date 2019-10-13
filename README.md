@@ -1,3 +1,5 @@
+:warning: this is forked from https://github.com/eugenp/tutorials/tree/master/spring-boot-custom-starter to upgrade Spring Boot version
+
 ## Spring Boot Custom Starter
 
 This module contains articles about writing Spring Boot [starters](https://www.baeldung.com/spring-boot-starters).
