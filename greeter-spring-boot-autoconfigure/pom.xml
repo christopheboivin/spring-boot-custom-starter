@@ -7,6 +7,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>greeter-spring-boot-autoconfigure</name>
 
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <java.version>1.8</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <greeter.version>0.0.1-SNAPSHOT</greeter.version>
+  </properties>
+
   <parent>
     <artifactId>spring-boot-custom-starter</artifactId>
     <groupId>com.baeldung</groupId>
@@ -65,9 +73,5 @@
     </plugins>
   </build>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <greeter.version>0.0.1-SNAPSHOT</greeter.version>
-  </properties>
 
 </project>
